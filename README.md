@@ -2,6 +2,7 @@
 日本版スマートミラープロジェクトです。
 
 ##　機能
+
 ・時計
 時間を表示します。
 
@@ -30,7 +31,8 @@ pip install -r requirements.txt
 ```
 
 3.
-(https://openweathermap.org/)にてアカウントを作成し,api_keyを取得。
+
+[OpenWeather](https://openweathermap.org/)にてアカウントを作成し,api_keyを取得。
 smartMirrorPyJP/api.pyにapiKeyを配置。
 smartMirrowPyJP/api.py
 ```
