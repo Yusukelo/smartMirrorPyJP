@@ -4,7 +4,7 @@ import feedparser
 
 def getWeather(city: str):
     # plz,create openweathermap account and get your api_key
-    api_key = '2f8d0ab465eae69d24f24d05efd0fc59'
+    api_key = ''
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&lang=ja&units=metric'
 
     r = requests.get(url)
