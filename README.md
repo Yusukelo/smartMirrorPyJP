@@ -11,9 +11,10 @@
 ## 使用方法
 
 1. git clone にてこのリポジトリをダウンロード
-'''
+
+```
 git clone https://github.com/Yusukelo/smartMirrorPyJP/
-'''
+```
 
 2.Tkinterのインストール
 
@@ -23,23 +24,27 @@ Macの場合インストールが必要な様です。
 requirements.txtにある通りのパッケージをインストールしてください。
 
 pipを使用している場合、以下のコマンドでインストール出来ます。
-'''
+
+```
 pip install -r requirements.txt 
-'''
+```
 
 3.
 (https://openweathermap.org/)にてアカウントを作成し,api_keyを取得。
 smartMirrorPyJP/api.pyにapiKeyを配置。
-''' smartMirrowPyJP/api.py
+smartMirrowPyJP/api.py
+```
 def getWeather(city: str):
     # plz,create openweathermap account and get your api_key
     api_key = ''　←here!!
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&lang=ja&units=metric'
-'''
+```
 
 5.
 smartMirrorPyJP/system.pyでsettingを記入。
-'''　smartMirrorPyJP/system.py
+
+smartMirrorPyJP/system.py
+```
 settings = dict(
     # True: 12hour round, False: 24hour round
     AMPM=False,
@@ -49,7 +54,7 @@ settings = dict(
     #https://openweathermap.org/find
     location='Yokohama, JP'
 )
-'''
+```
 6. Run!!
 
 ## ライセンス
