@@ -30,9 +30,7 @@ pipを使用している場合、以下のコマンドでインストール出�
 pip install -r requirements.txt 
 ```
 
-3.
-
-[OpenWeather](https://openweathermap.org/)にてアカウントを作成し,api_keyを取得。
+4.[OpenWeather](https://openweathermap.org/)にてアカウントを作成し,api_keyを取得。
 smartMirrorPyJP/api.pyにapiKeyを配置。
 smartMirrowPyJP/api.py
 ```
